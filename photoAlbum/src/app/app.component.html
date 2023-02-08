@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="images col-md-12" >
+    <app-flip-card class="m-1" *ngFor = "let foto of fotos">
+      <flip-card-front>
+        <div class="d-flex flex-column align-items-center">
+          <div class="image">
+            <img src="{{foto.url}}" />
+          </div>
+
+          <h2 class="pt-3">{{foto.title}}</h2>
+        </div>
+      </flip-card-front>
+
+      <flip-card-back>
+        <p>
+          {{foto.description}}
+        </p>
+      </flip-card-back>
+    </app-flip-card>
+  </div>
+</div>
+<router-outlet></router-outlet>

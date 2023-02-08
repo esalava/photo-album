@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@300&display=swap');
+* {
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border: 1.5px solid rgb(151, 150, 150);
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div .image {
+    height: 28vh;
+    width: 14vw;
+}
+
+h2{
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2vw;
+    margin: 0;
+}
+
+p{
+    font-size: 2vh;
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+flip-card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
